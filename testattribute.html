@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Test attributes</title>
+    </head>
+    <style>
+        input[type=text]{
+            background-color: darkcyan;
+        }
+        input[type=number]{
+            background-color: darkgoldenrod;
+        }
+        input[type=password]{
+            background-color: magenta;
+        }
+        button{
+            width:100;
+            height: 50;
+            background-color: mediumaquamarine;
+        }
+        button:hover{
+            background-color: green;
+        }
+
+    </style>
+    <body>
+        <form>
+            <div>
+                <input name="First name" type="text" placeholder="First Name"><br>
+                <input name="Last name" type="text" placeholder="Last Name"><br>
+                <input name="age" type="number" placeholder="Age"><br>
+                <input name="password" type="password" placeholder="password"><br>
+            </div>
+            <div>
+                Favorite Language?
+                <input name="Language" type="radio" value="Java">Java
+                <input name="Language" type="radio" value="php">PHP
+                <input name="Language" type="radio" value="C#">C#
+                <input name="Language" type="radio" value="python">Python
+            </div>
+            <div>
+                <button>Submit</button>
+                <button>Cancel</button>
+            </div>
+        </form>
+
+    </body>
+</html>
