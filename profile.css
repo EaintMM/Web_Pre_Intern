@@ -1,0 +1,60 @@
+body{
+    font-family: sans-serif;
+    line-height: 1.5rem;
+}
+.container{
+    display: flex;
+    margin-left:10%;
+    width: 80%;
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 2rem;
+}
+.left{
+    
+    width: 30%;
+    height: 100%;
+    
+    text-align: center;
+    padding: 3%;
+}
+.right{
+    width: 60%;
+    height: 100%;
+    padding: 3% 3% 3% 5%;
+    background-color: rgb(11, 12, 12);
+    color: white;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+.right p{
+    margin: 8%;
+}
+.img{
+    margin-top: 20%;
+    margin-bottom: 4%;
+    border-radius: 7rem;
+}
+.con{
+    display: flex;
+}
+.topic{
+    width: 20%;
+    height: 10%;
+    border-radius: 1rem;
+    background-color: teal;
+    margin: 5% 5% 5% 5%;
+    padding: 1rem;
+    text-align: center;
+}
+.value{
+    width: 60%;
+    margin: 5% 0% 5% 5%;
+    padding: 1rem;
+    font-size: 18px;
+    font-weight: 500;
+}
+i{
+    color: teal;
+    margin-right: 5px;
+}

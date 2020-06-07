@@ -1,0 +1,229 @@
+body {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+
+.topl{
+    
+    height: 5px;
+    background-color: #dc3545;
+}
+.topnav{
+    
+    width: 100%;
+    background-color: #868e96;
+}
+.nav-ls{
+    
+    width: 25%;
+   /* background-color: lightcoral; */
+    margin-left: 68%;
+    padding: 10px 10px 10px 5px;
+}
+.nav-ls a,.ls a{
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+.banner{
+    padding-left: 9%;
+}
+.nav{
+    width: 100%;
+    background-color: #343a40;
+}
+.ls{
+    width: 80%;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    margin-left: 5%;
+}
+.ls a{
+    color:  rgba(255,255,255,0.5);
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+.slide-content{
+    background-image: url('Images/ytu/bgslide.jpg');
+    padding:5%;
+   
+}
+.slide{
+    width: 85%;
+    background-color: rgba(0,0,0,0.6);
+    height: 300px;
+    margin-left: 3%;
+    display:flex;
+    padding:4%;
+    
+}
+.slide-left{
+    width: 40%;
+}
+.slide-right{
+    margin-left: 40px;
+    margin-top: -25px;
+    color:white;
+}
+.cards{
+ 
+    display: grid;
+     
+    grid-template-columns: repeat(3, 1fr);
+     
+    grid-auto-rows: auto;
+     
+    grid-gap: 3rem;
+
+    margin:5% 10% 5% 10%;
+    
+    }
+     
+    .card {
+     
+    border: 2px solid #e7e7e7;
+     
+    border-radius: 4px;
+     
+    padding: .5rem;
+    color: #495057;
+     
+    }
+    .card p{
+        text-align: justify;
+        line-height: 2rem;
+        padding-left: 25px;
+    }
+    
+    i.fa {
+        
+        float: left;
+        border-radius: 70px;
+        /*box-shadow: 0px 0px 2px #888;*/
+        padding: 0.5em 0.6em;
+        margin: 10px 10px 0px -45px;
+        
+        background-color: #e47a13;
+        color: white
+      
+      }
+.rector{
+    display: flex;
+    margin-left: 10%;
+}
+.rect-left{
+    width: 40%;
+}
+.rect-right{
+    width:50%;
+    line-height: 2rem;
+    text-align: justify;
+}
+.rect-right h1{
+    color: #e47a13;
+    margin-top: 0;
+    font-size: 2rem;
+}
+.events{
+    color: #e47a13;
+    text-align: center;
+}
+.events-con{
+    display: flex;
+    margin-left: 10%;
+}
+.sub{
+    width: 23%;
+}
+.img{
+    width: 255px;
+    height: 200px;
+}
+.welcome{
+    width: 80%;
+    margin-left: 10%;
+}
+.para{
+    line-height: 2rem;
+    text-align: justify;
+}
+.con{
+    display: flex;
+    background-image: url('Images/ytu/ytubgimage.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 120px;
+    padding: 3% 0% 3% 0%;
+    
+}
+.sub-con{
+    width: 24%;
+    border: 1px solid #dee2e6 ;
+    border-radius: 0.25rem;
+    margin: 0 1% 0 1%;
+    text-align: center;
+    padding:0 1% 0 1%;
+}
+.num{
+    color: #e47a13;
+    line-height: 1.5em;
+    font-size: 2rem;
+    margin-top: -.1em;
+    font-weight: 500;
+}
+.whitetext{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 0;;
+}
+.news{
+    display: flex;
+    margin: 0 0% 0 10%;
+}
+.sub-new{
+    width:30%;
+    margin: 5px;
+    border: 1px solid rgba(0,0,0,0.125);
+    border-radius: .5rem;
+}
+.sub-new img{
+    width: 363px;
+    height: 200px;
+    margin-top:1px;
+}
+.sub-new p{
+    color: #e47a13;
+    line-height: 2em;
+    text-align: justify;
+    padding: 0 0px 0 10px;
+}
+.footer{
+    display: flex;
+    margin-top: 5%;
+    width: 100%;
+    background-color: grey;
+    
+}
+.sub-footer,.sub-footer1{
+    width: 30%;
+    color: white;
+    line-height: 1.5rem;
+}
+.sub-footer1{
+    padding: 0 2% 0 0;
+    margin-left: 10%;
+    text-align: justify;
+    line-height: 2rem;
+}
+.e1{
+    margin-top: 10%;
+}
