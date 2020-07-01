@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+</head>
+<body>
+    <h1> To do lists </h1>
+    <ol>
+        
+ 
+    </ol>
+    <form>
+        <input type="text" id="todo">
+        <input type="button" id="submit" value="Add to List" disabled="true">
+    </form>
+
+    <!-- Scripts -->
+    <script>
+        $(document).ready(function(){
+            
+            $('#todo').keyup(function(){
+                if($('#todo').val().length != 0){
+                //alert("ok");
+                $('#submit').removeAttr('disabled');
+            }
+            });
+    
+            // for submitting
+            $('#submit').click( function(){
+                var txt = $('#todo').val();
+                //alert(txt);
+                $('ol').append('<li>' + txt + '</li>');
+                $('#todo').val('');
+            });
+    
+        });
+        
+    </script>
+   
+</body>
+</html>
